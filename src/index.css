@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.bg-coffee {
+  background-image: url(./assets/coffee_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    89.82deg,
+    #1e1e1e -6.88%,
+    rgba(0, 0, 0, 0) 87.45%
+  );
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.bg-get-a-chance {
+  background-image: url(./assets/coffeehot.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-subscribe {
+  background-image: url(./assets//coffeehot2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-footer {
+  background-image: url(./assets/fotter_image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #442808;
+  background-blend-mode: overlay;
+}
+
+.footer-overlay {
+  background: linear-gradient(
+    89.82deg,
+    #1e1e1e -6.88%,
+    rgba(0, 0, 0, 0) 87.45%
+  );
+}
