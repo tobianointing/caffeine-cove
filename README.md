@@ -17,6 +17,13 @@ Clone the project
 ```bash
 
   git clone https://github.com/tobianointing/talnts-frontend-task.git
+```
+
+Go to the project directory
+
+```bash
+
+  cd talnts-fronted-task
 
 ```
 
