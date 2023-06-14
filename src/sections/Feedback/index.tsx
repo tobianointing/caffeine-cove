@@ -109,12 +109,13 @@ export default function Feedback() {
           classNames="-right-[41px]"
           onClick={handleNext}
         />
-        <img
-          id="#person"
-          className="person absolute -bottom-[55px] left-[37.8%] w-[100px] tablet:-bottom-[72px] tablet:left-[40.8%] tablet:w-auto laptop:left-[42.8%]"
-          src={feedbacks[count].img}
-          alt="person"
-        />
+        <div className="person absolute -bottom-[55px] left-0 right-0 flex w-full justify-center tablet:-bottom-[72px] ">
+          <img
+            className="w-[100px] tablet:w-auto"
+            src={feedbacks[count].img}
+            alt="person"
+          />
+        </div>
       </div>
       <motion.img
         whileInView={{

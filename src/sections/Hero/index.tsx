@@ -21,7 +21,7 @@ export default function Hero() {
       variants={variants}
       initial="hidden"
       animate="visible"
-      className="relative px-[1.8rem] pb-[5.9375rem] pt-[4rem] tablet:pt-[7.1875rem] laptop:px-[5.8125rem]"
+      className="relative h-[100vh] px-[1.8rem] pb-[5.9375rem] pt-[6rem] tablet:h-auto tablet:pt-[7.1875rem] laptop:px-[5.8125rem]"
     >
       <div className="z-10 w-[90%] font-['PlayFair_Display'] tablet:w-[47%]">
         <p className="text-[1.2rem] laptop:text-[1.375rem]">
