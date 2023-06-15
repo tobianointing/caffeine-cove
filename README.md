@@ -4,43 +4,43 @@ This a single page coffee website.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p float="left">
+  <img align="top" src="./desktop-view.png" width="60%" />
+  <img src="./mobile-view.png" width="35%" /> 
+</p>
 
 ## Tech Stack
 
-Typescript, React, TailwindCSS, Jest, React testing library
+- Typescript
+- React
+- TailwindCSS
+- Jest
+- React testing library
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-
-  git clone https://github.com/tobianointing/talnts-frontend-task.git
+git clone https://github.com/tobianointing/talnts-frontend-task.git
 ```
 
 Go to the project directory
 
 ```bash
-
-  cd talnts-fronted-task
-
+cd talnts-fronted-task
 ```
 
 Install dependencies
 
 ```bash
-
-  pnpm install
-
+pnpm install
 ```
 
 Start the server
 
 ```bash
-
-  pnpm run dev
-
+pnpm run dev
 ```
 
 ## Running Tests
@@ -48,12 +48,9 @@ Start the server
 To run tests, run the following command
 
 ```bash
-
-  pnpm test
-
+pnpm test
 ```
 
 ## Authors
 
 - [@tobianointing](https://www.github.com/tobianointing)
-
