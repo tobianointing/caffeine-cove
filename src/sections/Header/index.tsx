@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header className="z-11 relative flex items-center px-[1.8rem] pt-[1.25rem] laptop:px-[5.8125rem]">
       <a href="/" className="font-['Clicker_Script'] text-[2.1875rem]">
-        Bean Scene
+        Caffeine Cove
       </a>
 
       <motion.nav
@@ -53,7 +53,7 @@ export default function Header() {
               }
         }
         animate={isOpen ? "open" : "closed"}
-        className={`fixed bottom-0 left-0 right-0 top-0 z-20 grid flex-1  place-content-center gap-16 bg-white text-base  font-bold  text-black transition-transform tablet:static tablet:flex tablet:h-auto tablet:translate-x-0 tablet:gap-0 tablet:bg-inherit tablet:text-sm tablet:font-medium tablet:text-white`}
+        className={`fixed bottom-0 left-0 right-0 top-0 z-20 grid flex-1 place-content-center gap-16 bg-white text-base  font-bold  text-black transition-transform tablet:static tablet:flex tablet:h-auto tablet:translate-x-0 tablet:gap-0 tablet:bg-inherit tablet:text-sm tablet:font-medium tablet:text-white`}
       >
         <motion.img
           whileHover={{ rotate: [0, 90] }}

@@ -23,6 +23,7 @@ export default function AmazingMorning() {
       <motion.div
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className="relative z-10 w-full space-y-[1.375rem] tablet:w-[50%]"
       >
@@ -38,6 +39,7 @@ export default function AmazingMorning() {
       <div className="absolute bottom-0 left-0 right-0 top-0 bg-[#603809] opacity-80"></div>
       <div className="hidden tablet:block">
         <motion.img
+          viewport={{ once: true }}
           whileInView={{ x: [120, 0], transition: { duration: 0.5 } }}
           className="relative z-10 mr-[5rem] "
           src={cup}

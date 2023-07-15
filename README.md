@@ -1,4 +1,4 @@
-# Bean Scene
+# Caffeine Cove
 
 This a single page coffee website.
 

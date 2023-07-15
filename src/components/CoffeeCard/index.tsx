@@ -36,8 +36,8 @@ export default function CoffeeCard({
       custom={id}
       variants={cardVariant}
       initial="hidden"
-      whileInView={"visible"}
       viewport={{ once: true }}
+      whileInView={"visible"}
       className="border border-[#f9c06a6b]"
     >
       <img src={img} className="w-full" alt="item image" />

@@ -11,6 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-footer relative px-[1.8rem] pb-[4.5rem] pt-[5rem] text-white tablet:pt-[6rem] laptop:px-[5.8125rem] laptop:pt-[10.125rem]">
       <motion.img
+        viewport={{ once: true }}
         whileInView={{
           left: [-100, 0],
           transition: {
@@ -22,6 +23,7 @@ export default function Footer() {
         alt="pngwing"
       />
       <motion.img
+        viewport={{ once: true }}
         whileInView={{
           right: [-100, 0],
           transition: {
@@ -35,7 +37,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 justify-items-center gap-[4.125rem] text-center tablet:grid-cols-2 tablet:justify-items-start tablet:text-start laptop:grid-cols-[380px_1fr_1fr_2.2fr]">
         <div>
           <h1 className="mb-5 font-['Clicker_Script'] text-h1 font-normal">
-            Bean Scene
+            Caffeine Cove
           </h1>
           <p className="mb-8 text-sm leading-[22px]">
             Lorem Ipsum is simply dummy text of the printing and typesetting

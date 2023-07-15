@@ -33,6 +33,7 @@ export default function WhyAreWeDifferentCard({
       custom={id}
       variants={cardVariant}
       initial="hidden"
+      viewport={{ once: true }}
       whileInView={"visible"}
       // viewport={{ once: true }}
       className="flex flex-col items-center bg-[#FFEED8] py-9 text-center"

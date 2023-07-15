@@ -69,6 +69,7 @@ export default function Feedback() {
       <motion.h1
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className="mb-4 text-center  text-[2rem] font-bold text-chocolate laptop:text-h1"
       >
@@ -77,6 +78,7 @@ export default function Feedback() {
       <motion.p
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className=" mb-8 text-center text-secondary"
       >
@@ -118,6 +120,7 @@ export default function Feedback() {
         </div>
       </div>
       <motion.img
+        viewport={{ once: true }}
         whileInView={{
           right: [-100, -50],
           transition: {
@@ -130,6 +133,7 @@ export default function Feedback() {
         alt="coffee blast"
       />
       <motion.img
+        viewport={{ once: true }}
         whileInView={{
           left: [-100, -50],
           transition: {

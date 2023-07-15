@@ -20,6 +20,7 @@ export default function Subscribe() {
       <motion.div
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className="relative z-10"
       >

@@ -23,6 +23,7 @@ export default function CoffeeItems() {
       <motion.h1
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className="mb-4 text-center text-[2rem] font-bold text-chocolate laptop:text-h1"
       >
@@ -31,6 +32,7 @@ export default function CoffeeItems() {
       <motion.p
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className=" mb-8 text-center text-secondary"
       >
@@ -50,6 +52,7 @@ export default function CoffeeItems() {
         ))}
       </div>
       <motion.img
+        viewport={{ once: true }}
         whileInView={{
           right: [-100, -50],
           transition: {

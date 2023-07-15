@@ -23,6 +23,7 @@ export default function WhyAreWeDifferent() {
       <motion.h1
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className="mb-4 text-center text-[2rem] font-bold text-chocolate laptop:text-h1"
       >
@@ -31,6 +32,7 @@ export default function WhyAreWeDifferent() {
       <motion.p
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className=" mb-8 text-center text-secondary"
       >
@@ -52,6 +54,7 @@ export default function WhyAreWeDifferent() {
       <motion.div
         variants={textVariants}
         initial="hidden"
+        viewport={{ once: true }}
         whileInView={"visible"}
         className="mt-8 flex flex-col items-center text-center"
       >
